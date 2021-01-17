@@ -1,0 +1,10 @@
+.installed.cfg
+bin
+dist
+downloads
+*.egg-info
+.idea/
+.vscode/
+__pycache__
+*.pyc
+*.pyo
