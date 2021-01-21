@@ -28,7 +28,11 @@ def get_arguments():
     return parser.parse_args()
 
 
-if __name__ == '__main__':
+def main():
     args = get_arguments()
     args.func(args)
+
+
+if __name__ == '__main__':
+    main()
 

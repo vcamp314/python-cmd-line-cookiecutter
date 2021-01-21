@@ -1,4 +1,5 @@
 import setuptools
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
@@ -11,11 +12,13 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
+    entry_points={'console_scripts': ['{{cookiecutter.pkg_name}} = {{cookiecutter.file_name}}.__main__:main']},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    license='MIT',
     python_requires='>=3.6',
     install_requires=[],
     setup_requires=['pytest-runner'],
