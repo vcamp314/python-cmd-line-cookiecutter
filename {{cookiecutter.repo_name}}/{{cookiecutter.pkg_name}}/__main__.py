@@ -2,6 +2,7 @@
 
 import argparse
 from .{{cookiecutter.file_name}} import sample_func_pos_args_only, sample_func_opt_args_too
+# todo: Add documentation explaining how to update the below
 
 
 def apply_pos_arg_only_func(arg):
