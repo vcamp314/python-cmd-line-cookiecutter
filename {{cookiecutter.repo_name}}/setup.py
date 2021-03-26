@@ -10,7 +10,7 @@ setuptools.setup(
     author_email="{{cookiecutter.email}}",
     description="template for future packages",
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/x-rst",
     packages=setuptools.find_packages(),
     entry_points={'console_scripts': ['{{cookiecutter.pkg_name}} = {{cookiecutter.file_name}}.__main__:main']},
     classifiers=[
